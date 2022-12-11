@@ -3,5 +3,5 @@ The code here generally uses the SML/NJ library, so you might have to use that c
 generally,
 - `cd` into a directory
 - load up an SML/NJ REPL
-- `use dayN.sml`
+- `use "dayN.sml"`
 - `process "input.txt"`
