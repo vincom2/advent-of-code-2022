@@ -62,6 +62,8 @@ fun put_row_into_heightmap heightmap  y lines = let
  * is not necessarily optimal on the first pass through, but if we do it until the `stepsmap` stops changing,
  * then we're fine. *)
 (* is the problem that i did a DFS instead of a BFS? lmaoooooooooo *)
+(* omg it is. i am so stupid. years of graph theory for this.
+ * let's pretend this is DFS-ID but without the "iterative" part *)
 (* i also bet if you start from E instead of S then it would just work out but i cannot be bothered anymore *)
 fun process' heightmap stepsmap start_pos = let
       val (_, stepsmap') = climb S.empty heightmap stepsmap start_pos
