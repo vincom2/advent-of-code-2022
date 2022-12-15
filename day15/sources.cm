@@ -1,0 +1,11 @@
+group 
+  structure Solution (* "fast" *)
+  structure BadSolution (* "visualiser" *)
+is
+  $/basis.cm
+  $/smlnj-lib.cm
+
+  util.sml
+  grid.sml
+  day15.sml
+  day15_bad.sml
