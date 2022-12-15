@@ -1,5 +1,8 @@
 $(SML_LIB)/basis/basis.mlb
 $(SML_LIB)/smlnj-lib/Util/smlnj-lib.mlb
 
-day14.sml
-main.sml
+ann "nonexhaustiveBind ignore" in
+  grid.sml
+  day14.sml
+  main.sml
+end
