@@ -1,0 +1,9 @@
+group
+  structure MapSolution
+  structure ArraySolution
+is
+  $/basis.cm
+  $/smlnj-lib.cm
+
+  grid.sml
+  day14.sml
